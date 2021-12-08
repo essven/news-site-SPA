@@ -1,0 +1,19 @@
+.last-news{
+    width: 240px;
+    margin-left: 29px;
+}
+.last-news  h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+.last-news  p{
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 18px;
+}
+.last-news p span {
+    color: #888888;
+}

@@ -1,0 +1,79 @@
+main{
+    width: 1230px;
+    margin: 0 auto;
+    display: flex;
+}
+.blue{
+    background: #609FFF;
+}
+.yellow{
+    background: #E7C652;
+}
+.green{
+    background: #68E082;
+}
+.red{
+    background: red;
+}
+.darkgreen{
+    background: darkgreen;
+}
+.orange{
+    background: orange;
+}
+.violet{
+    background:violet;
+}
+.lightblue{
+    background: lightblue;
+}
+.lightred{
+    background: lightcoral;
+}
+.tag{
+    color: #ffffff;
+    font-size: 11px;
+    line-height: 16pt;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    margin-right: 30px;
+    text-align: center;
+    width: 134px;
+    height: 22px;
+}
+.data{
+    font-size: 12px;
+    line-height: 18pt ;
+    color: #888888;
+    padding-right: 30px;
+}
+.statistic {
+    display: flex;
+    width: 134px;
+    justify-content: space-between;  
+    font-size: 12px;
+    line-height: 14pt;
+    color: #6A6A6A;
+}
+.info-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.button-container button {
+    padding: 12px 32px 16px;
+    border: none;
+    background: none;
+    font-weight: 500;
+}
+
+.button-container button.add-button {
+    background: #FF1850;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+[contentEditable=true]:empty:not(:focus):before {
+    content: attr(data-text)
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/lastNews.css">
+    <link rel="stylesheet" href="css/addNews.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html"><img src="public/logo.svg" alt="LIVE"></a>
+            <nav>
+                <div>Новости</div>
+                <div>Финансы</div>
+                <div>Недвижимость</div>
+                <div>Спорт</div>
+                <div>Афиша</div>
+                <div>Магазины</div>
+                <div>Работа</div>
+                <div>ТВ программа</div>
+                <div>Почта</div>            
+                <div>Погода</div>
+            </nav>
+            <div>
+                <img src="public/search.svg" alt="поиск">
+                <img src="public/user_logo.svg" alt="user">
+                <img src="public/add.svg" alt="добавить новость">
+            </div>
+        </div>
+    </header>
+    <main>
+        <form action="#" method="POST" class="full-news-container">
+            <div class="info-container">
+                Категория:
+                <select>
+                    <option value="property">Недвижимость</option>
+                </select>
+            </div>
+            <input type="text" placeholder="Текст заголовка" class="news-name">
+            <div class="image-container">
+                <img src="public/plus.svg" alt="">
+            </div>
+            <div class="full-text" contentEditable=true data-text="Основной текст новости"></div>
+            <div class="button-container">
+                <button>Отмена</button>
+                <button class="add-button">Сохранить новость</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

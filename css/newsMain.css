@@ -1,0 +1,118 @@
+.statistics-container{
+    width:200px;
+}
+.statistic{
+    flex-direction: column;
+    position: fixed;
+    top:280px;
+    left: 50px;
+    font-size: 16px;
+}
+.statistic img{
+    width: 27px;
+    margin-right: 5px;
+}
+.statistic > div{
+    margin-bottom: 20px;
+}
+.full-news-container{
+    width: 780px;
+}
+.full-news-container > h1{
+    margin-top: 20px;
+    margin-bottom: 33px;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+}
+.comments-container {
+    margin-top: 45px;
+}
+
+.comments-container .name {
+    color: #888888;
+    font-size: 16px;
+    padding-bottom: 16px;
+    margin-bottom: 46px;
+    border-bottom: 1px solid #ECECEC;;
+}
+
+.comments-container .name > span {
+    color: #000000;
+}
+
+.comments-container .add-container {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.comments-container .add-container > div {
+    width: 690px;
+}
+
+.comments-container .add-container input {
+    color: #888888;
+    border: none;
+    border-bottom: 1px solid #ECECEC;
+    padding-bottom: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+.comments-container .add-container .button-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.user-comment-image {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-right: 21px;
+}
+
+.subcomment-user-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    margin-right: 23px;
+}
+
+.comment-container {
+    display: flex;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.comment-container > div > .username {
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.comment-container > div > .comment-text {
+    margin-bottom: 8px;
+}
+
+.comment-container > div > .comment-text .answer-reference {
+    color: #FF1850;
+}
+
+.comment-container > div > .answer {
+    color: #888888;
+    font-weight: 500;
+}
+
+.comment-container > div > .hide-show {
+    color: #FF1850;
+    display: flex;
+    align-items: center;
+    margin-bottom: 17px;
+    margin-top: 8px;
+    font-weight: 500;
+}
+
+.comment-container > div > .hide-show > img {
+    margin-right: 12px;
+}
